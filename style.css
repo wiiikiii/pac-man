@@ -1,52 +1,75 @@
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    width: 560px;
-    height: 560px;
-    border: solid black;
-}
-  
-.grid div {
-    width: 20px;
-    height: 20px;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.pac-dot {
-    background-color: green;   
-    border: 5px solid white;
-    box-sizing: border-box;
+.container {
+  height: 100vh;
+  width: 100vw;
 }
 
+#score {
+  padding: 10px;
+}
+#playground {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  height: 560px;
+  width: 560px;
+  border: 1px solid black;
+}
+#playground div {
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+}
+
+.pac_dot {
+  background-color: green;
+  border: 7px solid white;
+  border-radius: 10px;
+}
 .wall {
-    background-color: blue;
+  background-color: rgb(21, 23, 21);
 }
-
-.power-pellet {
-    background-color: green;
-    border-radius: 10px;
+.power {
+  border: 3px solid white;
+  background-color: green;
+  border-radius: 10px;
+}
+.ghost-area {
+  background-color: white;
+}
+.empty {
 }
 
 .blinky {
-    background-color: red;
+  border-radius: 0px;
+  border: 2px solid white;
+  background-color: red;
 }
 
 .pinky {
-    background-color: pink;
+  border-radius: 0px;
+  border: 2px solid white;
+  background-color: pink;
 }
 
 .inky {
-    background-color: cyan;
+  border-radius: 0px;
+  border: 2px solid white;
+  background-color: cyan;
 }
 
 .clyde {
-    background-color: orange;     
+  border-radius: 0px;
+  border: 2px solid white;
+  background-color: orange;
 }
 
 .pac-man {
-    background-color: yellow;
-    border-radius: 10px;
-}
-
-.scared-ghost {
-    background-color: aquamarine;
+  border: 2px solid white;
+  background-color: greenyellow;
+  border-radius: 10px;
 }
