@@ -28,7 +28,7 @@ Also a goal was to minimize the usage of timers.
 
 ### Next steps:
 - different speed for ghosts
-- more intelligent ghosts tunning after pac man
+- more intelligent ghosts, running after pac man
 - better graphics with svg
 
 ### Inspired by Ania Kubow
